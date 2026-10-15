@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movema — Política de privadesa</title>
+<style>
+  :root { --bg:#fffaf7; --fg:#231a17; --muted:#6b5f5a; --accent:#e0452a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1a1110; --fg:#f3e9e6; --muted:#b9aca7; --accent:#ff8a6b; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, sans-serif; margin:0; padding:24px 16px; }
+  main { max-width:760px; margin:auto; }
+  a { color:var(--accent); }
+  h1 { color:var(--accent); font-size:1.6em; } h2 { margin-top:1.8em; }
+  .muted { color:var(--muted); } hr { border:0; border-top:1px solid #8884; margin:40px 0; }
+</style>
+</head>
+<body><main>
+<h1>Política de privadesa — Movema</h1>
+<p class="muted">Darrera actualització: 14 d'octubre de 2026</p>
+<p class="muted">Aquesta és una traducció de la <a href="index.html">versió en castellà</a>. En cas de discrepància, preval la versió en castellà.</p>
+<p>Responsable del tractament: JR Soft, nom comercial de Javier Román Sáez. Contacte: <a href="mailto:demual@gmail.com">demual@gmail.com</a>.</p>
+<h2>Resum</h2>
+<ul>
+  <li><strong>Els teus entrenaments i les teves dades de salut no surten del teu telèfon.</strong> No hi ha comptes, ni servidors propis, ni analítica pròpia, ni informes de fallades propis. Si canvies de mòbil, les pots passar al nou amb una còpia en un fitxer o, en molts mòbils, amb la còpia d'Android (mira «Còpies de seguretat i canvi de mòbil»).</li>
+  <li>L'aplicació mostra publicitat de Google AdMob en algunes pantalles de consulta. Mai durant els entrenaments, mai a pantalla completa i mai en el mode gent gran. La biblioteca de publicitat és l'única cosa que envia dades a un tercer (Google); s'explica més avall.</li>
+</ul>
+<h2>Quines dades fa servir l'aplicació i on es desen</h2>
+<ul>
+  <li>Perfil que escrius tu (nom opcional, any de naixement, sexe, alçada, pes, objectiu, nivell i limitacions físiques), respostes del qüestionari de salut i contacte d'emergència.</li>
+  <li>Historial d'entrenaments, registres de pes, resultats dels tests físics, rutines pròpies, progrés dels plans i assoliments.</li>
+  <li>El país de la xarxa mòbil (si no n'hi ha, el de la targeta SIM o el de la regió del sistema), que el botó «Em trobo malament» consulta en el moment per escriure al marcador el número d'emergències d'aquest país. No es desa ni s'envia.</li>
+  <li>El país de la teva targeta SIM (o, si no n'hi ha, el de la regió del sistema), que la pantalla «Més apps de JR Soft» consulta en el moment per mostrar només les apps disponibles al teu país. No es desa ni s'envia. Els enllaços a Google Play d'aquesta pantalla porten una etiqueta que diu que vénen d'aquesta aplicació, sense cap dada teva.</li>
+</ul>
+<p>Tot es desa <strong>només al teu telèfon</strong> i no es transmet a ningú: els entrenaments funcionen sense connexió a internet. Pots exportar o importar les teves dades en un fitxer des de la configuració de l'aplicació.</p>
+<h2 id="copia">Còpies de seguretat i canvi de mòbil</h2>
+<p>La còpia de seguretat d'Android al núvol (la del teu compte de Google) està desactivada per a les dades d'aquesta aplicació: no se'n puja cap. Android sí que desa al teu compte la llista de les aplicacions que tenies instal·lades, per tornar-les a instal·lar, però aquesta llista la gestiona Google i no conté dades de l'aplicació.</p>
+<p>Si, en configurar un mòbil nou, copies les teves dades directament des de l'antic, amb cable o sense, les dades de l'aplicació (incloent-hi el teu perfil, els teus entrenaments i les teves respostes al qüestionari de salut) poden passar al mòbil nou. Aquest traspàs el demanes tu i el fa Android, amb la seva eina o amb la del fabricant del mòbil i amb les seves pròpies condicions. Segons la documentació d'Android, va d'un mòbil a l'altre sense passar per servidors. En cap cas no passa pels nostres: JR Soft no rep res.</p>
+<p>Que es faci depèn de la versió d'Android i del fabricant (a Android 8 o anterior no es fa), així que no ho podem garantir. Si configures el mòbil nou des de la còpia del teu compte de Google, sense l'antic, les dades d'aquesta aplicació no tornen, perquè no són en aquesta còpia.</p>
+<p>No es traspassa el que només serveix al mòbil antic, com les dades xifrades amb claus d'aquell mòbil o la teva elecció sobre els anuncis: al mòbil nou l'aplicació te la tornarà a demanar.</p>
+<h2>Publicitat: Google AdMob</h2>
+<p>L'aplicació mostra un bàner al peu de l'historial, de la biblioteca d'exercicis i dels assoliments, i anuncis amb l'etiqueta «Anunci» dins d'aquestes llistes i al final de la pantalla «Avui», de les fitxes d'exercicis i plans i de les zones de «Cuida el teu cos». Els serveix l'SDK de publicitat de Google (AdMob). Per això declara el permís <code>com.google.android.gms.permission.AD_ID</code>, que dona accés a l'identificador de publicitat d'Android; pots restablir-lo o esborrar-lo des de <em>Configuració d'Android → Google → Anuncis</em>.</p>
+<p>A més de l'identificador de publicitat, l'SDK d'AdMob recull l'identificador del conjunt d'aplicacions (<em>app set ID</em>), les interaccions amb l'aplicació i amb els anuncis, i dades de diagnòstic (temps d'arrencada, bloquejos i consum d'energia). Google pot fer servir la teva adreça IP per estimar una ubicació aproximada, de l'ordre d'una ciutat. Google fa servir aquestes dades per servir i mesurar la publicitat, per a estadístiques i per prevenir fraus, segons la seva pròpia política: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.</p>
+<p>A l'Espai Econòmic Europeu, el Regne Unit i Suïssa, i allà on la llei ho demani, l'aplicació mostra el formulari de consentiment de Google (UMP) abans de servir publicitat personalitzada. Pots canviar la teva elecció quan vulguis a <em>Jo → Quant a → Opcions de privadesa dels anuncis</em>.</p>
+<p>El missatge de consentiment dels anuncis el mostra Google amb un text comú a tots els seus socis publicitaris, i per això esmenta la geolocalització precisa. Segons Google, el seu SDK d'anuncis només fa servir la ubicació aproximada que es dedueix de l'adreça IP, i aquesta aplicació no li passa la ubicació del GPS. Pots rebutjar aquest ús a «Gestiona les opcions».</p>
+<p><strong>Els teus entrenaments, el teu perfil i les teves dades de salut no arriben mai a la publicitat.</strong> La petició d'anunci surt sense cap dada de l'aplicació. Si rebutges el consentiment, veuràs publicitat no personalitzada i l'aplicació funcionarà exactament igual: no hi ha cap funció bloquejada. En el mode gent gran no es mostren anuncis ni es demana el consentiment.</p>
+<h2>Permisos</h2>
+<ul>
+  <li><strong>Notificacions</strong>: només per als recordatoris que activis tu.</li>
+  <li><strong>Iniciar en engegar</strong>: per tornar a programar aquests recordatoris després de reiniciar el telèfon.</li>
+  <li><strong>Vibració</strong>: avisos durant l'entrenament.</li>
+  <li><strong>Internet i estat de la xarxa</strong>: només per a la publicitat.</li>
+  <li><strong>Identificador de publicitat</strong>: la publicitat (vegeu més amunt).</li>
+</ul>
+<p>El botó «Em trobo malament» obre el marcador del telèfon amb el número d'emergències o el del teu contacte ja escrit; la trucada la fas tu.</p>
+<h2>Altres serveis de Google</h2>
+<p>L'aplicació pot mostrar la finestra oficial de Google Play per valorar l'aplicació. Aquest procés el gestiona Google Play segons la seva pròpia política de privadesa; l'aplicació no en rep cap dada.</p>
+<p>L'aplicació inclou la biblioteca de configuració remota de Firebase (<em>Remote Config</em>), que serviria per ajustar la publicitat sense publicar una versió nova, però <strong>està desactivada</strong>: no s'inicia ni es connecta a cap servidor. Si algun dia s'activa, aquesta política s'actualitzarà abans.</p>
+<h2>Base jurídica i conservació</h2>
+<p>Les dades que deses a l'aplicació (perfil, entrenaments, qüestionari de salut, tests i pes) es tracten només al teu telèfon i sota el teu control: JR Soft no les rep. Si es considerés un tractament, la seva base és el teu consentiment explícit en introduir-les o en activar cada funció (art. 6.1.a i 9.2.a del RGPD), que retires esborrant-les o desinstal·lant l'aplicació. La publicitat personalitzada es basa en el teu consentiment, que es recull amb el formulari de Google (UMP) i que pots retirar quan vulguis des de <em>Jo → Quant a → Opcions de privadesa dels anuncis</em>. La publicitat no personalitzada i el mesurament bàsic que fa Google, en l'interès legítim de finançar l'aplicació gratuïta (art. 6.1.f). El permís de notificacions el decideixes tu a Android i el pots treure quan vulguis. Tot el que es desa roman fins que ho esborris, esborris les dades de l'aplicació o la desinstal·lis. El traspàs entre mòbils el fas tu amb una funció d'Android i no ens arriba cap dada.</p>
+<h2>Transferències fora d'Europa</h2>
+<p>Google (AdMob i, si escau, els serveis de Google Play) pot tractar dades fora de l'Espai Econòmic Europeu. Google LLC està adherida al Marc de Privadesa de Dades UE-EUA, a la seva extensió per al Regne Unit i al marc Suïssa-EUA.</p>
+<h2>Menors</h2>
+<p>L'aplicació està pensada per a persones adultes. No s'adreça a menors de 16 anys i no en recull conscientment dades.</p>
+<h2>Els teus drets</h2>
+<p>Les dades de l'aplicació són al teu telèfon: les pots consultar, corregir o esborrar en qualsevol moment des de l'aplicació o desinstal·lant-la. Pots retirar el consentiment de la publicitat a <em>Jo → Quant a → Opcions de privadesa dels anuncis</em>. Les dades que recull la biblioteca de Google les gestiona Google, i els drets sobre aquestes dades s'exerceixen davant Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Per a qualsevol dubte, escriu a l'adreça de contacte. També pots reclamar davant l'<a href="https://www.aepd.es">Agencia Española de Protección de Datos</a> o davant l'autoritat de protecció de dades del teu país (art. 77 del RGPD).</p>
+<h2>Canvis en aquesta política</h2>
+<p>Si aquesta política canvia de manera substancial, es publicarà la versió nova en aquesta mateixa adreça amb una altra data d'actualització.</p>
+<h2>Avís de salut</h2>
+<p>Movema no és un producte sanitari i no diagnostica, tracta, cura ni prevé cap malaltia. Ofereix orientació general sobre exercici i no substitueix el consell d'un professional sanitari.</p>
+<p class="muted"><a href="index.html#idiomas">Altres idiomes</a></p>
+</main></body>
+</html>

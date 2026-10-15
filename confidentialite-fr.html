@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movema — Politique de confidentialité</title>
+<style>
+  :root { --bg:#fffaf7; --fg:#231a17; --muted:#6b5f5a; --accent:#e0452a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1a1110; --fg:#f3e9e6; --muted:#b9aca7; --accent:#ff8a6b; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, sans-serif; margin:0; padding:24px 16px; }
+  main { max-width:760px; margin:auto; }
+  a { color:var(--accent); }
+  h1 { color:var(--accent); font-size:1.6em; } h2 { margin-top:1.8em; }
+  .muted { color:var(--muted); } hr { border:0; border-top:1px solid #8884; margin:40px 0; }
+</style>
+</head>
+<body><main>
+<h1>Politique de confidentialité — Movema</h1>
+<p class="muted">Dernière mise à jour&#160;: 14 octobre 2026</p>
+<p class="muted">Ceci est une traduction de la <a href="index.html">version espagnole</a>. En cas de divergence, la version espagnole prévaut.</p>
+<p>Responsable du traitement&#160;: JR Soft, nom commercial de Javier Román Sáez. Contact&#160;: <a href="mailto:demual@gmail.com">demual@gmail.com</a>.</p>
+<h2>Résumé</h2>
+<ul>
+  <li><strong>Tes séances et tes données de santé ne quittent pas ton téléphone.</strong> Il n'y a ni comptes, ni serveurs propres, ni outil d'analyse propre, ni rapports de plantage propres. Si tu changes de téléphone, tu peux les transférer sur le nouveau avec une copie dans un fichier ou, sur de nombreux téléphones, avec la copie Android (voir «&#160;Sauvegardes et changement de téléphone&#160;»).</li>
+  <li>L'application affiche de la publicité Google AdMob sur certains écrans de consultation. Jamais pendant les séances, jamais en plein écran et jamais dans le mode senior. La bibliothèque publicitaire est la seule chose qui envoie des données à un tiers (Google)&#160;; elle est expliquée plus bas.</li>
+</ul>
+<h2>Quelles données l'application utilise et où elles sont conservées</h2>
+<ul>
+  <li>Le profil que tu saisis (nom facultatif, année de naissance, sexe, taille, poids, objectif, niveau et limitations physiques), les réponses au questionnaire de santé et le contact d'urgence.</li>
+  <li>L'historique des séances, les relevés de poids, les résultats des tests physiques, tes propres routines, la progression dans les programmes et les succès.</li>
+  <li>Le pays du réseau mobile (à défaut, celui de la carte SIM ou de la région du système), que le bouton «&#160;Je ne me sens pas bien&#160;» consulte sur le moment pour saisir dans le clavier téléphonique le numéro d'urgence de ce pays. Il n'est ni enregistré ni envoyé.</li>
+  <li>Le pays de ta carte SIM (ou, à défaut, celui de la région du système), que l'écran «&#160;Plus d'applis de JR Soft&#160;» consulte sur le moment pour n'afficher que les applications disponibles dans ton pays. Il n'est ni enregistré ni envoyé. Les liens vers Google Play de cet écran portent une étiquette indiquant qu'ils viennent de cette application, sans aucune donnée te concernant.</li>
+</ul>
+<p>Tout est conservé <strong>uniquement sur ton téléphone</strong> et n'est transmis à personne&#160;: les séances fonctionnent sans connexion à internet. Tu peux exporter ou importer tes données dans un fichier depuis les paramètres de l'application.</p>
+<h2 id="copia">Sauvegardes et changement de téléphone</h2>
+<p>La sauvegarde Android dans le cloud (celle de ton compte Google) est désactivée pour les données de cette application&#160;: aucune n'est envoyée. Android enregistre bien dans ton compte la liste des applications que tu avais installées, pour pouvoir les réinstaller, mais cette liste est gérée par Google et ne contient aucune donnée de l'application.</p>
+<p>Si, en configurant un nouveau téléphone, tu copies tes données directement depuis l'ancien, avec ou sans câble, les données de l'application (y compris ton profil, tes séances et tes réponses au questionnaire de santé) peuvent être transférées sur le nouveau téléphone. C'est toi qui demandes ce transfert et c'est Android qui l'effectue, avec son outil ou celui du fabricant du téléphone, selon leurs propres conditions. D'après la documentation d'Android, il va directement d'un téléphone à l'autre sans passer par des serveurs. Il ne passe en aucun cas par les nôtres&#160;: JR Soft ne reçoit rien.</p>
+<p>Qu'il ait lieu dépend de la version d'Android et du fabricant (il n'a pas lieu sous Android 8 ou antérieur), nous ne pouvons donc pas le garantir. Si tu configures le nouveau téléphone à partir de la sauvegarde de ton compte Google, sans l'ancien, les données de cette application ne reviennent pas, car elles ne sont pas dans cette sauvegarde.</p>
+<p>Ce qui n'a de sens que sur l'ancien téléphone n'est pas transféré, comme les données chiffrées avec les clés de ce téléphone ou tes choix concernant les publicités&#160;: sur le nouveau téléphone, l'application te les redemandera.</p>
+<h2>Publicité&#160;: Google AdMob</h2>
+<p>L'application affiche une bannière en bas de l'historique, de la bibliothèque d'exercices et des succès, et des annonces portant l'étiquette «&#160;Annonce&#160;» dans ces listes et à la fin de l'écran «&#160;Aujourd'hui&#160;», des fiches d'exercices et de programmes et des zones de «&#160;Prends soin de ton corps&#160;». Elles sont diffusées par le SDK publicitaire de Google (AdMob). C'est pourquoi l'application déclare l'autorisation <code>com.google.android.gms.permission.AD_ID</code>, qui donne accès à l'identifiant publicitaire d'Android&#160;; tu peux le réinitialiser ou le supprimer depuis <em>Paramètres d'Android → Google → Annonces</em>.</p>
+<p>Outre l'identifiant publicitaire, le SDK d'AdMob collecte l'identifiant de l'ensemble d'applications (<em>app set ID</em>), les interactions avec l'application et avec les annonces, et des données de diagnostic (temps de démarrage, plantages et consommation d'énergie). Google peut utiliser ton adresse IP pour estimer une position approximative, de l'ordre d'une ville. Google utilise ces données pour diffuser et mesurer la publicité, pour des statistiques et pour prévenir la fraude, selon sa propre politique&#160;: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.</p>
+<p>Dans l'Espace économique européen, au Royaume-Uni et en Suisse, et partout où la loi l'exige, l'application affiche le formulaire de consentement de Google (UMP) avant de diffuser de la publicité personnalisée. Tu peux modifier ton choix à tout moment dans <em>Moi → À propos → Options de confidentialité des annonces</em>.</p>
+<p>Le message de consentement des annonces est affiché par Google avec un texte commun à tous ses partenaires publicitaires, et c'est pourquoi il mentionne la géolocalisation précise. Selon Google, son SDK publicitaire n'utilise que la position approximative déduite de l'adresse IP, et cette application ne lui transmet pas la position GPS. Tu peux refuser cet usage dans «&#160;Gérer les options&#160;».</p>
+<p><strong>Tes séances, ton profil et tes données de santé n'arrivent jamais jusqu'à la publicité.</strong> La demande d'annonce part sans aucune donnée de l'application. Si tu refuses le consentement, tu verras de la publicité non personnalisée et l'application fonctionnera exactement de la même façon&#160;: aucune fonction n'est verrouillée. Dans le mode senior, aucune annonce n'est affichée et le consentement n'est pas demandé.</p>
+<h2>Autorisations</h2>
+<ul>
+  <li><strong>Notifications</strong>&#160;: uniquement pour les rappels que tu actives.</li>
+  <li><strong>Lancement au démarrage</strong>&#160;: pour reprogrammer ces rappels après un redémarrage du téléphone.</li>
+  <li><strong>Vibration</strong>&#160;: signaux pendant la séance.</li>
+  <li><strong>Internet et état du réseau</strong>&#160;: uniquement pour la publicité.</li>
+  <li><strong>Identifiant publicitaire</strong>&#160;: la publicité (voir plus haut).</li>
+</ul>
+<p>Le bouton «&#160;Je ne me sens pas bien&#160;» ouvre le clavier téléphonique avec le numéro d'urgence ou celui de ton contact déjà saisi&#160;; l'appel, c'est toi qui le passes.</p>
+<h2>Autres services Google</h2>
+<p>L'application peut afficher la fenêtre officielle de Google Play pour la noter. Ce processus est géré par Google Play selon sa propre politique de confidentialité&#160;; l'application n'en reçoit aucune donnée.</p>
+<p>L'application inclut la bibliothèque de configuration à distance de Firebase (<em>Remote Config</em>), qui servirait à ajuster la publicité sans publier de nouvelle version, mais elle est <strong>désactivée</strong>&#160;: elle ne démarre pas et ne se connecte à aucun serveur. Si elle est un jour activée, cette politique sera mise à jour avant.</p>
+<h2>Base juridique et conservation</h2>
+<p>Les données que tu enregistres dans l'application (profil, séances, questionnaire de santé, tests et poids) sont traitées uniquement sur ton téléphone et sous ton contrôle&#160;: JR Soft ne les reçoit pas. Si cela devait être considéré comme un traitement, il repose sur ton consentement explicite lorsque tu les saisis ou que tu actives chaque fonction (art. 6, paragraphe 1, point a), et art. 9, paragraphe 2, point a), du RGPD), que tu retires en les supprimant ou en désinstallant l'application. La publicité personnalisée repose sur ton consentement, recueilli avec le formulaire de Google (UMP), que tu peux retirer à tout moment depuis <em>Moi → À propos → Options de confidentialité des annonces</em>. La publicité non personnalisée et la mesure de base effectuée par Google reposent sur l'intérêt légitime de financer l'application gratuite (art. 6, paragraphe 1, point f), du RGPD). L'autorisation de notifications, c'est toi qui la décides dans Android et tu peux la retirer quand tu veux. Tout ce qui est enregistré reste jusqu'à ce que tu le supprimes, que tu effaces les données de l'application ou que tu la désinstalles. C'est toi qui transfères les données d'un téléphone à l'autre, avec une fonction d'Android, et aucune ne nous parvient.</p>
+<h2>Transferts hors d'Europe</h2>
+<p>Google (AdMob et, le cas échéant, les services Google Play) peut traiter des données hors de l'Espace économique européen. Google LLC adhère au cadre de protection des données UE-États-Unis (Data Privacy Framework), à son extension pour le Royaume-Uni et au cadre Suisse-États-Unis.</p>
+<h2>Mineurs</h2>
+<p>L'application est conçue pour les adultes. Elle ne s'adresse pas aux moins de 16 ans et ne collecte pas sciemment de données les concernant.</p>
+<h2>Tes droits</h2>
+<p>Les données de l'application sont sur ton téléphone&#160;: tu peux les consulter, les corriger ou les supprimer à tout moment depuis l'application ou en la désinstallant. Tu peux retirer ton consentement à la publicité dans <em>Moi → À propos → Options de confidentialité des annonces</em>. Les données que collecte la bibliothèque de Google sont gérées par Google, et les droits sur ces données s'exercent auprès de Google&#160;: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Pour toute question, écris à l'adresse de contact. Tu peux aussi introduire une réclamation auprès de l'<a href="https://www.aepd.es">Agencia Española de Protección de Datos</a> (l'autorité espagnole de protection des données) ou de l'autorité de protection des données de ton pays (art. 77 du RGPD).</p>
+<h2>Modifications de cette politique</h2>
+<p>Si cette politique change de manière substantielle, la nouvelle version sera publiée à cette même adresse avec une autre date de mise à jour.</p>
+<h2>Avertissement sur la santé</h2>
+<p>Movema n'est pas un dispositif médical et ne diagnostique, ne traite, ne guérit ni ne prévient aucune maladie. Elle donne des repères généraux sur l'exercice et ne remplace pas l'avis d'un professionnel de santé.</p>
+<p class="muted"><a href="index.html#idiomas">Autres langues</a></p>
+</main></body>
+</html>
